@@ -9,3 +9,10 @@ for the next 3 years (without a leap year).
 Let's say the current population is 380,123,456.
 
 '''
+population = 380123456
+period_of_time_in_sec =(3*60*60*24*365)
+born_in_3years = period_of_time_in_sec/6
+dies_in_3years = period_of_time_in_sec/12
+immigrates_in_3years = period_of_time_in_sec/40
+pop_in_3years= population+born_in_3years-dies_in_3years+immigrates_in_3years
+print(pop_in_3years)
