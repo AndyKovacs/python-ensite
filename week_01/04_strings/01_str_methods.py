@@ -15,3 +15,18 @@ For this exercise, demonstrate the following string methods below:
 - find
 
 '''
+# some exmaples
+my_name =' Andy '
+my_surname =' kovacs '
+my_middlename = ' jenö '
+
+print(my_name.lstrip())
+
+print(my_surname.rstrip())
+
+print(my_middlename.strip())
+
+print(my_name.replace('A','B'))
+print(my_name.find('d')) # Andy is the word what is tested...it should give a 3
+print(my_middlename.find('n'))
+print(my_surname.find('c'))

@@ -29,3 +29,20 @@ ROT13, which is a Caesar cypher with rotation 13. If you are not easily
 offended, find and decode some of them.
 
 '''
+
+
+def rotate_word(string,integer):
+    new_word = ''
+    for letter in string:
+        new_letter = chr(ord(letter)+integer)
+        new_word = new_word + new_letter
+    return new_word
+
+print(rotate_word('cheer',7))
+
+
+
+
+
+
+
